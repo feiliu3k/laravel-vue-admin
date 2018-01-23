@@ -1,0 +1,16 @@
+<?php
+
+namespace $repository_interface_namespace;
+
+use App\Repositories\BaseInterface\RepositoryInterface;
+
+
+/**
+ * Created by PhpStorm.
+ * User: zxwwjs@hotmail.com
+ */
+interface $repository_interface extends RepositoryInterface
+{
+
+
+}

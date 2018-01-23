@@ -1,0 +1,15 @@
+<?php
+
+namespace $repository_namespace;
+
+use App\Repositories\BaseInterface\Repository;
+use $repository_interface_namespace\$repository_interface;
+use $model_namespace;
+
+class $class_name extends Repository implements $repository_interface {
+
+  public function model() {
+    return "$model_namespace";
+  }
+
+}
